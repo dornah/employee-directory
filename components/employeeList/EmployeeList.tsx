@@ -15,7 +15,7 @@ const EmployeeList = () => {
   
   return (
     isLoading?
-    <></>
+    <>...Loading</>
     :
     <div className={styles.employeeList}>
       <div className={styles.employeeListContainer}>
