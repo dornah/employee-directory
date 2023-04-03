@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import Header from '@/components/header/Header'
-import EmployeeList from '@/components/employeeList/EmployeeList'
+import EmployeeCreateForm from '@/components/employeeCreateForm/EmployeeCreateForm'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function newEmployeePage() {
   return (
     <>
       <Head>
@@ -14,8 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={inter.className}>
-        <Header />
-        <EmployeeList />
+        <EmployeeCreateForm />
       </main>      
     </>
   )

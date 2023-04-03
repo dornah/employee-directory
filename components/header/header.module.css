@@ -1,0 +1,30 @@
+.header {
+  background-color: #004280;
+  color: white;
+  display: flex;
+  justify-content:center;
+}
+
+.header a {
+  color: white;
+}
+
+.header button {
+  margin-left: 10px;
+}
+
+.header input {
+  margin-right: 10px;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: baseline;
+  justify-content:space-between;
+}
+

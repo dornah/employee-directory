@@ -1,0 +1,44 @@
+.employeeList {
+  display: flex;
+  justify-content:center;  
+}
+.employeeListContainer {
+    width: 100%;
+    max-width: 1024px;
+    padding: 10px;
+}
+
+.employeeListTable {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  border: 1px solid;
+  margin-top: 30px;
+}
+
+.employeeListTable th {
+  background-color: #004280;
+  color: white;
+}
+
+.employeeListTable th.sortable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employeeListTable th a {
+  color: white;
+}
+
+.employeeListTable th, .employeeListTable td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.employeeListTable tr:nth-child(even) {
+  background-color:  #f2f2f2;
+}
+
+.deleteButton {
+  margin-left: 10px;
+}

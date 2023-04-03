@@ -1,0 +1,29 @@
+.employeeForm{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container div{
+    display: flex;
+    margin: 20px 0px;
+    flex-direction: column;
+}
+
+.container input, .container select{
+    margin: 10px 0px;
+    max-width: 500px;
+    height: 25px;
+}
+
+.container button{
+    width: 100px;
+    background-color: #004280;
+    color: white;
+    height: 30px;
+}
+
